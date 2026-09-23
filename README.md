@@ -37,7 +37,7 @@ Edit your scripts in VS Code (or any editor) and see them in Roblox Studio insta
 
 ## Development
 
-You need [Node.js](https://nodejs.org) 18 or newer and Roblox Studio.
+You need [Node.js](https://nodejs.org) 20 or newer and Roblox Studio.
 
 **CLI**
 ```bash
