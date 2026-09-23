@@ -1,0 +1,37 @@
+{
+  "name": "syncrbx",
+  "version": "1.1.1",
+  "description": "A free tool to sync VS Code with Roblox Studio. Instant bidirectional sync, SyncRbx Cloud, and Auto-Folders.",
+  "author": "DevMany",
+  "license": "MIT",
+  "main": "local-sync.js",
+  "bin": {
+    "syncrbx": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js serve",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.0",
+    "archiver": "^7.0.1",
+    "chokidar": "^3.6.0",
+    "commander": "^15.0.0",
+    "express": "^4.22.2"
+  },
+  "files": [
+    "cli.js",
+    "local-sync.js",
+    "converters.js",
+    "README.md"
+  ],
+  "homepage": "https://www.syncrbx.xyz/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevManyPB/syncrbx.git",
+    "directory": "cli"
+  },
+  "bugs": {
+    "url": "https://github.com/DevManyPB/syncrbx/issues"
+  }
+}

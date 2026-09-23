@@ -1,0 +1,11 @@
+node_modules/
+!extension/test/fixtures/**/node_modules/
+extension/out/
+plugin/dist/
+*.vsix
+*.tgz
+.syncrbx/
+*.conflict.bak
+*.log
+.DS_Store
+.env

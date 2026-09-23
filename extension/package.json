@@ -1,0 +1,89 @@
+{
+  "name": "syncrbx",
+  "displayName": "SyncRbx",
+  "description": "A free tool to sync VS Code with Roblox Studio. Instant bidirectional sync, SyncRbx Cloud, and Auto-Folders.",
+  "version": "1.1.0",
+  "publisher": "devmany",
+  "author": "DevMany",
+  "license": "MIT",
+  "icon": "Logo.png",
+  "homepage": "https://www.syncrbx.xyz/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevManyPB/syncrbx.git",
+    "directory": "extension"
+  },
+  "bugs": {
+    "url": "https://github.com/DevManyPB/syncrbx/issues"
+  },
+  "keywords": [
+    "roblox",
+    "roblox-studio",
+    "luau",
+    "sync"
+  ],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": false,
+      "description": "SyncRbx runs the installed CLI and accesses files in the current workspace."
+    }
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "syncrbx-sidebar",
+          "title": "SyncRbx",
+          "icon": "Logo.png"
+        }
+      ]
+    },
+    "views": {
+      "syncrbx-sidebar": [
+        {
+          "type": "webview",
+          "id": "syncrbx-sidebar-view",
+          "name": "SyncRbx Cloud"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "syncrbx.start",
+        "title": "SyncRbx: Start Sync Server",
+        "icon": "$(play)"
+      },
+      {
+        "command": "syncrbx.stop",
+        "title": "SyncRbx: Stop Sync Server",
+        "icon": "$(stop)"
+      },
+      {
+        "command": "syncrbx.clean",
+        "title": "SyncRbx: Empty Trash",
+        "icon": "$(trash)"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "npm run compile && node --test test/*.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "^16.x",
+    "typescript": "^5.0.0"
+  }
+}
