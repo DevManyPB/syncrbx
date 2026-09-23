@@ -36,4 +36,4 @@ These exist because earlier versions lost users' work. Pull requests that break 
 
 ## Reporting security issues
 
-If you find a way to make SyncRbx read, write or delete files outside a project, or to control it from a web page, please don't open a public issue. Contact us privately on [Discord](https://discord.gg/kH9qfAUwXe) instead.
+If you find a way to make SyncRbx read, write or delete files outside a project, or to control it from a web page, please don't open a public issue. Contact us privately on [Discord](https://discord.gg/jgM2zNuYsN) instead.

@@ -8,7 +8,7 @@
   Free, two-way sync between your code editor and Roblox Studio.<br />
   <a href="https://www.syncrbx.xyz">Website</a> ·
   <a href="https://www.syncrbx.xyz/docs">Docs</a> ·
-  <a href="https://discord.gg/kH9qfAUwXe">Discord</a>
+  <a href="https://discord.gg/jgM2zNuYsN">Discord</a>
 </p>
 
 ---
